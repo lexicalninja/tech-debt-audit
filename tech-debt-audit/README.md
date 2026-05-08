@@ -40,13 +40,17 @@ Generates `technical-debt-report.md` with:
 
 ## Testing
 
-Test codebases available at:
-- `~/Documents/repos/skillz/test-repos/js-seeded/`
-- `~/Documents/repos/skillz/test-repos/python-seeded/`
-- `~/Documents/repos/skillz/test-repos/go-seeded/`
+Six test codebases available at `~/Documents/repos/skillz/test-repos/`:
 
-Each contains intentional debt for unit testing. Run:
-```
+- **js-seeded/** — 3-file JavaScript project with security debt (hardcoded secrets, weak hashing)
+- **python-seeded/** — Single Python file with SQL injection risk and input validation issues
+- **go-seeded/** — Single Go file with error handling gaps and panic patterns
+- **tiny-codebase/** — Edge case: minimal 1-file project (23 lines) with bare except and no validation
+- **bare-minimal/** — Edge case: no config files, hardcoded credentials and eval() usage
+- **mixed-monorepo/** — Edge case: multi-language monorepo (Go, Python, JavaScript) with cross-cutting security issues
+
+For a quick test run:
+```bash
 cd ~/Documents/repos/skillz/test-repos/js-seeded
 # Then say: "Can you do a tech debt audit?"
 ```
