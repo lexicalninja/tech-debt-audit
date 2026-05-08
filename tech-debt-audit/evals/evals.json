@@ -20,6 +20,27 @@
       "description": "User inherited unfamiliar codebase with monorepo structure",
       "prompt": "I inherited this codebase from a consultant. It has a packages/ directory with like 6 sub-packages. No idea what shape it's in — can you map it and find the worst tech debt? Especially interested in missing tests and half-finished code.",
       "type": "unit"
+    },
+    {
+      "id": "eval-4",
+      "name": "Tiny codebase",
+      "description": "Edge case: very small project with just a few files",
+      "prompt": "I'm auditing a small internal tool I wrote. It's pretty minimal — just a few files. Can you tell me what tech debt issues might be lurking? Save me a report.",
+      "type": "unit"
+    },
+    {
+      "id": "eval-5",
+      "name": "Mixed-language monorepo",
+      "description": "Edge case: monorepo with multiple programming languages",
+      "prompt": "We have a monorepo with backend services in Go and Python, and a frontend in JavaScript. Can you audit all of it and give me a consolidated report on the biggest problems across the whole system?",
+      "type": "unit"
+    },
+    {
+      "id": "eval-6",
+      "name": "Minimal marker files",
+      "description": "Edge case: codebase with few or no obvious language markers",
+      "prompt": "Audit this repo for me. Fair warning: it's pretty bare-bones, might not have all the standard config files. Just do your best to understand the structure and find issues.",
+      "type": "unit"
     }
   ],
   "smoke_tests": [
