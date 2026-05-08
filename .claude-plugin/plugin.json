@@ -7,5 +7,10 @@
   },
   "path": "tech-debt-audit",
   "license": "MIT",
-  "keywords": ["tech-debt", "audit", "code-quality", "architecture", "static-analysis"]
+  "keywords": ["tech-debt", "audit", "code-quality", "architecture", "static-analysis"],
+  "skills": [
+    {
+      "path": "./tech-debt-audit/SKILL.md"
+    }
+  ]
 }
