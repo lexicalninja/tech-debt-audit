@@ -1,6 +1,9 @@
 ---
 name: tech-debt-audit
+version: 1.0.0
 description: Performs a comprehensive technical debt and architecture audit across an entire codebase. Use this skill when the user explicitly requests a code audit, technical debt review, or codebase health assessment. Produces a structured markdown report saved to the project root.
+license: MIT
+compatibility: claude-code opencode
 allowed-tools:
   - Bash
   - Read

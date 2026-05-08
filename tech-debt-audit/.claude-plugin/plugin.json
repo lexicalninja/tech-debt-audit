@@ -1,0 +1,10 @@
+{
+  "name": "tech-debt-audit",
+  "version": "1.0.0",
+  "description": "Performs a comprehensive technical debt and architecture audit across an entire codebase. Three-phase methodology (discovery → signals → deep read) across Go, Python, JavaScript, Java, and Rust. Produces a structured markdown report with severity-ranked issues, fix suggestions, and a remediation roadmap.",
+  "author": {
+    "name": "Patrick Saxton"
+  },
+  "license": "MIT",
+  "keywords": ["tech-debt", "audit", "code-quality", "architecture", "static-analysis"]
+}
