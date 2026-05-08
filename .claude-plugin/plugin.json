@@ -5,6 +5,7 @@
   "author": {
     "name": "Patrick Saxton"
   },
+  "path": "tech-debt-audit",
   "license": "MIT",
   "keywords": ["tech-debt", "audit", "code-quality", "architecture", "static-analysis"]
 }
